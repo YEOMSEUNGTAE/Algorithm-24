@@ -1,4 +1,5 @@
-#13
+#13 202110846 염승태
+
 def selection (A):
     n=len(A)
     for i in range(n-1):
@@ -15,7 +16,8 @@ selection(data)
 print('정리됨 : ',data)
 
 
-#23
+#23 202110846 염승태
+
 import collections
 Q  = collections.deque()
 Q.append(0)
@@ -32,8 +34,7 @@ for i in range(2,10) :
     Q.append(ver)
     print("F(%d) = "%i, ver)
 
-
-#15
+#15 202110846 염승태
 def string(T,P):
     n = len(T)
     m = len(P)
@@ -47,5 +48,5 @@ def string(T,P):
 
 text = '염승태'
 pattern = '태'
-print(pattern, 'in', text,'-->', string(text, pattern))
+print(pattern, 'in', text,'-->', string(text, pattern))#2는 있음, 1은 없음 
 pattern = (pattern,'in',text,'-->',string(text, pattern))
